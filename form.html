@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Virtual</title>
+</head>
+
+<head>
+    <h1 align="center">Escola Virtual - Exercício 4</h1><br>
+    <h2 align="center">Formulário de Pré Matrícula</h2><hr>
+</head>
+<body>
+   <h3 align="center">Dados Pessoais:</h3> 
+   <form method="post" align="center">
+    Nome do Aluno: <input type=text name="Nome" id="nome" style="width: 250px;"><br>
+    <br>
+    Nascimento(dd/mm/aaaa): <input style="width: 40px;" type="number" name="dia" id="dia" width: 50px> / <input type="number" name="mes" id="mes" style="width: 40px;"> / <input type="number" name="ano" id="ano" style="width: 50px;"><br>
+    <br>
+    Nome da Mãe: <input type=text name="mae" id="mae" style="width: 250px;"><br>
+    <br>
+    Nome do Pai: <input type=text name="pai" id="pai" style="width: 255px;"><br>
+    <br>
+    Telefone DDD: (<input type="number" name="ddd" id="ddd" style="width: 30px;">) Tel<input type="number" name="tel" id="tel" style="width: 80px;"> Ramal<input type="number" name="ramal" id="ramal" style="width: 40px;"><br>
+    <br>
+    E-Mail: <input type="email" name="email" id="email" style="width: 300px;">
+    <hr>
+    <h3>Informações da Matrícula</h3>
+    Série: <select name="serie" id="serie"> 
+        <option value="preescolar">pre-escolar</option>
+    </select> <br> Turno: <input type="radio" name="manha" id="manha"> Manhã <input type="radio" name="tarde" id="tarde"> Tarde <br>
+    <br>
+    Atividades Extracurriculares:<br>
+    <input type="checkbox" name="inf" id="inf"> Informática <br>
+    <input type="checkbox" name="msc" id="msc"> Música <br>
+    <input type="checkbox" name="bal" id="bal"> Balet <br> 
+    <input type="checkbox" name="pin" id="pin"> Pintura <br>
+    <input type="checkbox" name="judo" id="judo"> Judô <br>
+    <input type="checkbox" name="fut" id="fut"> Futebol <br>
+    <br>
+    <input type="submit" value="Envia Formulário"> <input type="reset" value="Limpa Campos">
+   </form> 
+
+</body>
+</html>
